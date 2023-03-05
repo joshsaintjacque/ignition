@@ -9,7 +9,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] [PostgreSQL](https://www.postgresql.org/)
 - [x] [esbulid](https://esbuild.github.io/)
 - [x] [Tailwind]
-- [] [RSpec](https://rspec.info/)
+- [x] [RSpec](https://rspec.info/)
 - [] FactoryBot
 - [] Devise
 - [] PaperTrail
@@ -37,3 +37,6 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 3. Start PostgreSQL (if not already running) with `brew services start postgresql`.
 4. Run `script/setup your_app_name`.
 5. Run `bin/dev` to start the server.
+
+## Running tests
+1. Run `script/test` to run the test suite.
