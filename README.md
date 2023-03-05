@@ -33,7 +33,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 
 ## Instructions
 1. Clone the repo.
-2. Run `bundle install`.
-3. Make sure you have PostgreSQL installed with `brew install postgresql@14`.
-4. Start PostgreSQL (if not already running) with `brew services start postgresql`.
-5. Run `rails db:create db:migrate`.
+2. Make sure you have PostgreSQL installed with `brew install postgresql@14`.
+3. Start PostgreSQL (if not already running) with `brew services start postgresql`.
+4. Run `script/setup your_app_name`.
+5. Run `bin/dev` to start the server.

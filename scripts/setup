@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 <name>"
+  exit 1
+fi
+
+name="$1"
+
+echo "Updating database.yml to use name: ${name}"
+sed -i "" "s/ignition/${name}/g" config/database.yml
+
+bundle install
+bundle exec rails db:create db:migrate
