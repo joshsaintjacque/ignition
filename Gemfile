@@ -56,6 +56,8 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   # See https://github.com/rspec/rspec-rails
   gem 'rspec-rails'
+  # See https://github.com/thoughtbot/factory_bot_rails
+  gem 'factory_bot_rails'
 end
 
 group :development do
