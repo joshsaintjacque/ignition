@@ -11,6 +11,8 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Tailwind
 - [x] [RSpec](https://rspec.info/)
 - [x] FactoryBot
+- [x] SimpleCSS
+- [x] Flipper
 - [ ] Devise
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
@@ -20,15 +22,12 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [ ] Bullet
 - [ ] Brakeman
 - [ ] Danger
-- [ ] Flipper
 - [ ] StrongMigrations
 - [ ] Guard RSpec
 - [ ] Axe Core RSpec
-- [ ] Faker
 - [ ] Rubocop
 - [ ] Rubocop Rails
 - [ ] Rubocop RSpec
-- [x] SimpleCSS
 
 
 ## Instructions
