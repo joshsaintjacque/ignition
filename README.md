@@ -10,7 +10,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] [esbulid](https://esbuild.github.io/)
 - [x] Tailwind
 - [x] [RSpec](https://rspec.info/)
-- [ ] FactoryBot
+- [x] FactoryBot
 - [ ] Devise
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
