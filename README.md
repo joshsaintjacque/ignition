@@ -8,7 +8,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] [Ruby on Rails](https://rubyonrails.org/)
 - [x] [PostgreSQL](https://www.postgresql.org/)
 - [x] [esbulid](https://esbuild.github.io/)
-- [x] [Tailwind]
+- [x] Tailwind
 - [x] [RSpec](https://rspec.info/)
 - [] FactoryBot
 - [] Devise
@@ -28,7 +28,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [] Rubocop
 - [] Rubocop Rails
 - [] Rubocop RSpec
-- [] SimpleCSS
+- [x] SimpleCSS
 
 
 ## Instructions
