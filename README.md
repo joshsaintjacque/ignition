@@ -10,24 +10,24 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] [esbulid](https://esbuild.github.io/)
 - [x] Tailwind
 - [x] [RSpec](https://rspec.info/)
-- [] FactoryBot
-- [] Devise
-- [] PaperTrail
-- [] acts_as_paranoid
-- [] ViewComponent
-- [] Annotate
-- [] AwesomePrint
-- [] Bullet
-- [] Brakeman
-- [] Danger
-- [] Flipper
-- [] StrongMigrations
-- [] Guard RSpec
-- [] Axe Core RSpec
-- [] Faker
-- [] Rubocop
-- [] Rubocop Rails
-- [] Rubocop RSpec
+- [ ] FactoryBot
+- [ ] Devise
+- [ ] PaperTrail
+- [ ] acts_as_paranoid
+- [ ] ViewComponent
+- [ ] Annotate
+- [ ] AwesomePrint
+- [ ] Bullet
+- [ ] Brakeman
+- [ ] Danger
+- [ ] Flipper
+- [ ] StrongMigrations
+- [ ] Guard RSpec
+- [ ] Axe Core RSpec
+- [ ] Faker
+- [ ] Rubocop
+- [ ] Rubocop Rails
+- [ ] Rubocop RSpec
 - [x] SimpleCSS
 
 
