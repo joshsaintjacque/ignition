@@ -47,7 +47,7 @@ Note that the User model is setup to be confirmable, but you'll need to configur
 
 ## Monitor and Enforce Code Coverage with SimpleCov
 1. Run `scripts/test` to generate the coverage report.
-2. Open `/coverage/index.html` in your browser to view the report.
+2. Open `/coverage/index.html` in your browser to view the report with `scripts/coverage`.
 
 
 ## Format objects with AwesomePrint
