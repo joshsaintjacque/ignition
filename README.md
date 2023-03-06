@@ -15,11 +15,11 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Flipper
 - [x] Devise
 - [x] Annotate
+- [x] Brakeman
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
 - [ ] AwesomePrint
-- [ ] Brakeman
 - [ ] Danger
 - [ ] StrongMigrations
 - [ ] Guard RSpec
