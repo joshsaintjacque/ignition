@@ -23,7 +23,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] UUIDs
 - [x] PaperTrail
 - [x] StrongMigrations
-- [ ] Guard RSpec
+- [x] Guard RSpec
 - [ ] Axe Core RSpec
 - [ ] Rubocop
 - [ ] Rubocop Rails
@@ -56,5 +56,10 @@ You can use AwesomePrint to format objects in the Rails console. To enable it, r
 ## Feature Flags with Flipper
 You can access the Flipper UI at `/flipper`, but you'll need to be logged in as an admin user (`current_user.admin?` must be true).
 
+## Use Binstubs for Common Commands
+This project comes with a few binstubs to make it easier to run common commands. You can run `bin/rails`, `bin/rspec`, and `bin/guard`. You can also run `bin/dev` to start the dev server.
+
 ## Running tests and security checks
-1. Run `script/test` to run the test suite and Brakeman to check for security issues.
+1. Run `scripts/test` to run the test suite and Brakeman to check for security issues.
+2. Run `scripts/coverage` to open the coverage report in the browser.
+3. Run `bin/guard` to run the specs for relevant files when they change.

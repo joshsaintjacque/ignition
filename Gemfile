@@ -83,6 +83,9 @@ group :development do
   # Scan for security vulnerabilities
   gem "brakeman"
 
+  # Automatically run tests when files are modified
+  gem 'guard-rspec', require: false # https://github.com/guard/guard-rspec
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
