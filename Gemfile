@@ -53,6 +53,7 @@ gem "devise"
 gem "view_component" # https://github.com/ViewComponent/view_component
 gem 'acts_as_paranoid'
 gem 'paper_trail' # https://github.com/paper-trail-gem/paper_trail
+gem "strong_migrations" # https://github.com/ankane/strong_migrations
 
 # Use Sass to process CSS
 # gem "sassc-rails"
