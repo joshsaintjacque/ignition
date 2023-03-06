@@ -22,7 +22,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] acts_as_paranoid
 - [x] UUIDs
 - [x] PaperTrail
-- [ ] StrongMigrations
+- [x] StrongMigrations
 - [ ] Guard RSpec
 - [ ] Axe Core RSpec
 - [ ] Rubocop
