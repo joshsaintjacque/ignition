@@ -49,6 +49,8 @@ gem "flipper"
 gem "flipper-active_record"
 gem "flipper-ui"
 
+gem "devise"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

@@ -13,7 +13,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] FactoryBot
 - [x] SimpleCSS
 - [x] Flipper
-- [ ] Devise
+- [x] Devise
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
@@ -36,6 +36,15 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 3. Start PostgreSQL (if not already running) with `brew services start postgresql`.
 4. Run `script/setup your_app_name`.
 5. Run `bin/dev` to start the server.
+
+## Next steps
+### Change Devise auth configuration
+See `config/initializers/devise.rb` and make any changes necessary for your application. You should also review the settings in the `User` model (e.g., make it `confirmable` if you want to require email confirmation). Checkout the [Devise docs](https://github.com/heartcombo/devise#starting-with-rails) for more information.
+
+Note that the User model is setup to be confirmable, but you'll need to configure your email settings in `config/environments/development.rb` and `config/environments/production.rb` before you can send emails. You can manual confirm a user by running `user.confirm` in the Rails console.
+
+## Flipper
+You can access the Flipper UI at `/flipper`, but you'll need to be logged in as an admin user (`current_user.admin?` must be true).
 
 ## Running tests
 1. Run `script/test` to run the test suite.
