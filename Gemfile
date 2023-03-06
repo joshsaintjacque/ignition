@@ -89,4 +89,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+
+  # Coverage reports and minimum coverage enforcement
+  # https://github.com/simplecov-ruby/simplecov
+  gem 'simplecov', require: false
 end

@@ -16,6 +16,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Devise
 - [x] Annotate
 - [x] Brakeman
+- [x] SimpleCov
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
@@ -27,6 +28,8 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [ ] Rubocop
 - [ ] Rubocop Rails
 - [ ] Rubocop RSpec
+- [ ] FriendlyId
+- [ ] Script to generate and open coverage report
 
 
 ## Instructions
@@ -42,7 +45,14 @@ See `config/initializers/devise.rb` and make any changes necessary for your appl
 
 Note that the User model is setup to be confirmable, but you'll need to configure your email settings in `config/environments/development.rb` and `config/environments/production.rb` before you can send emails. You can manual confirm a user by running `user.confirm` in the Rails console.
 
-## Flipper
+## Monitor and Enforce Code Coverage with SimpleCov
+1. Run `scripts/test` to generate the coverage report.
+2. Open `/coverage/index.html` in your browser to view the report.
+
+
+You can 
+
+## Feature Flags with Flipper
 You can access the Flipper UI at `/flipper`, but you'll need to be logged in as an admin user (`current_user.admin?` must be true).
 
 ## Running tests and security checks
