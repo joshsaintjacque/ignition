@@ -20,6 +20,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] AwesomePrint
 - [x] ViewComponent
 - [x] acts_as_paranoid
+- [x] UUIDs
 - [ ] PaperTrail
 - [ ] StrongMigrations
 - [ ] Guard RSpec

@@ -52,6 +52,7 @@ gem "flipper-ui"
 gem "devise"
 gem "view_component"
 gem 'acts_as_paranoid'
+gem 'paper_trail'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
