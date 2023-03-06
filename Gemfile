@@ -64,6 +64,8 @@ group :development, :test do
   gem 'rspec-rails'
   # See https://github.com/thoughtbot/factory_bot_rails
   gem 'factory_bot_rails'
+
+  gem 'awesome_print', require: 'awesome_print'
 end
 
 group :development do

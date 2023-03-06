@@ -17,10 +17,10 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Annotate
 - [x] Brakeman
 - [x] SimpleCov
+- [x] AwesomePrint
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
-- [ ] AwesomePrint
 - [ ] Danger
 - [ ] StrongMigrations
 - [ ] Guard RSpec
@@ -50,7 +50,8 @@ Note that the User model is setup to be confirmable, but you'll need to configur
 2. Open `/coverage/index.html` in your browser to view the report.
 
 
-You can 
+## Format objects with AwesomePrint
+You can use AwesomePrint to format objects in the Rails console. To enable it, run `AwesomePrint.irb!` in the console. To avoid having to do this every time you can add it to your `~/.irbrc` file instead.
 
 ## Feature Flags with Flipper
 You can access the Flipper UI at `/flipper`, but you'll need to be logged in as an admin user (`current_user.admin?` must be true).
