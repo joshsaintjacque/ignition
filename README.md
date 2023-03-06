@@ -14,10 +14,10 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] SimpleCSS
 - [x] Flipper
 - [x] Devise
+- [x] Annotate
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
-- [ ] Annotate
 - [ ] AwesomePrint
 - [ ] Bullet
 - [ ] Brakeman
