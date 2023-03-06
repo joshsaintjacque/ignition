@@ -18,9 +18,9 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Brakeman
 - [x] SimpleCov
 - [x] AwesomePrint
+- [x] ViewComponent
 - [ ] PaperTrail
 - [ ] acts_as_paranoid
-- [ ] ViewComponent
 - [ ] Danger
 - [ ] StrongMigrations
 - [ ] Guard RSpec
@@ -29,7 +29,6 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [ ] Rubocop Rails
 - [ ] Rubocop RSpec
 - [ ] FriendlyId
-- [ ] Script to generate and open coverage report
 
 
 ## Instructions
