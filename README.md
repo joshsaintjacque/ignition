@@ -36,7 +36,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 1. Clone the repo.
 2. Make sure you have PostgreSQL installed with `brew install postgresql@14`.
 3. Start PostgreSQL (if not already running) with `brew services start postgresql`.
-4. Run `script/setup your_app_name`.
+4. Run `scripts/setup your_app_name`.
 5. Run `bin/dev` to start the server.
 
 ## Change Devise auth configuration
