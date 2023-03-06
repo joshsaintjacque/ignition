@@ -74,6 +74,9 @@ group :development do
   # https://github.com/ctran/annotate_models
   gem 'annotate'
 
+  # Scan for security vulnerabilities
+  gem "brakeman"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 

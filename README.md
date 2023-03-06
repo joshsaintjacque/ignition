@@ -19,7 +19,6 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [ ] acts_as_paranoid
 - [ ] ViewComponent
 - [ ] AwesomePrint
-- [ ] Bullet
 - [ ] Brakeman
 - [ ] Danger
 - [ ] StrongMigrations
@@ -46,5 +45,5 @@ Note that the User model is setup to be confirmable, but you'll need to configur
 ## Flipper
 You can access the Flipper UI at `/flipper`, but you'll need to be logged in as an admin user (`current_user.admin?` must be true).
 
-## Running tests
-1. Run `script/test` to run the test suite.
+## Running tests and security checks
+1. Run `script/test` to run the test suite and Brakeman to check for security issues.
