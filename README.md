@@ -24,7 +24,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] PaperTrail
 - [x] StrongMigrations
 - [x] Guard RSpec
-- [ ] Axe Core RSpec
+- [x] Axe Core RSpec
 - [ ] Rubocop
 - [ ] Rubocop Rails
 - [ ] Rubocop RSpec

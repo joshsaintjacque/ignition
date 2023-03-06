@@ -99,6 +99,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 
+  # Provides the `be_axe_clean` matcher for RSpec a11y testing
+  gem 'axe-core-rspec' # https://github.com/dequelabs/axe-core-gems/blob/develop/packages/axe-core-rspec/README.md
+
   # Coverage reports and minimum coverage enforcement
   # https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false

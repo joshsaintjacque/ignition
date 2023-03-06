@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Ignition</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -25,9 +25,10 @@
         <% end %>
       </nav>
     </header>
+    <main>
+      <%= render(FlashMessagesComponent.new(flash:)) %>
 
-    <%= render(FlashMessagesComponent.new(flash:)) %>
-
-    <%= yield %>
+      <%= yield %>
+    </main>
   </body>
 </html>
