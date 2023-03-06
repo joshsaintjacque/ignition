@@ -45,13 +45,13 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Gems added by Ignition
 gem "flipper"
 gem "flipper-active_record"
 gem "flipper-ui"
-
 gem "devise"
-
 gem "view_component"
+gem 'acts_as_paranoid'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
