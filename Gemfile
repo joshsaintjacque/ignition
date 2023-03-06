@@ -50,9 +50,9 @@ gem "flipper"
 gem "flipper-active_record"
 gem "flipper-ui"
 gem "devise"
-gem "view_component"
+gem "view_component" # https://github.com/ViewComponent/view_component
 gem 'acts_as_paranoid'
-gem 'paper_trail'
+gem 'paper_trail' # https://github.com/paper-trail-gem/paper_trail
 
 # Use Sass to process CSS
 # gem "sassc-rails"

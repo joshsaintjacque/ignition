@@ -33,6 +33,8 @@
 #
 class User < ApplicationRecord
   acts_as_paranoid
+  has_paper_trail
+
   # Include default devise modules. Others available are:
   # :timeoutable  and :omniauthable
   devise :database_authenticatable, :registerable,

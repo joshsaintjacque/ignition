@@ -21,14 +21,13 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] ViewComponent
 - [x] acts_as_paranoid
 - [x] UUIDs
-- [ ] PaperTrail
+- [x] PaperTrail
 - [ ] StrongMigrations
 - [ ] Guard RSpec
 - [ ] Axe Core RSpec
 - [ ] Rubocop
 - [ ] Rubocop Rails
 - [ ] Rubocop RSpec
-- [ ] FriendlyId
 
 
 ## Instructions
