@@ -25,9 +25,11 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] StrongMigrations
 - [x] Guard RSpec
 - [x] Axe Core RSpec
-- [ ] Rubocop
-- [ ] Rubocop Rails
-- [ ] Rubocop RSpec
+- [x] Rubocop
+- [x] Rubocop Rails
+- [x] Rubocop RSpec
+- [x] Rubocop Capybara
+- [x] Rubocop Performance
 
 
 ## Instructions
@@ -58,6 +60,9 @@ You can access the Flipper UI at `/flipper`, but you'll need to be logged in as 
 
 ## Use Binstubs for Common Commands
 This project comes with a few binstubs to make it easier to run common commands. You can run `bin/rails`, `bin/rspec`, and `bin/guard`. You can also run `bin/dev` to start the dev server.
+
+## Running Rubocop
+Run Rubocop and automatically fix most issues with `scripts/lint`. You can tweak the Rubocop rules in `.rubocop.yml`.
 
 ## Running tests and security checks
 1. Run `scripts/test` to run the test suite and Brakeman to check for security issues.
