@@ -1,4 +1,3 @@
 #!/bin/bash
 
-bundle exec rspec
-bundle exec brakeman -q
+bundle exec rspec && bundle exec brakeman -q
