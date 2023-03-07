@@ -12,3 +12,4 @@ sed -i "" "s/ignition/${name}/g" config/database.yml
 
 bundle install
 bundle exec rails db:create db:migrate
+yarn
