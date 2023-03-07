@@ -11,6 +11,8 @@ require 'rspec/rails'
 require 'view_component/test_helpers'
 require 'capybara/rspec'
 require 'axe-rspec'
+require 'devise'
+
 
 # Require everything in the support directory
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
@@ -71,4 +73,7 @@ RSpec.configure do |config|
 
   config.include ViewComponent::TestHelpers, type: :component
   config.include Capybara::RSpecMatchers, type: :component
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  config.include Warden::Test::Helpers
+  config.include Devise::Test::IntegrationHelpers, type: :request
 end
