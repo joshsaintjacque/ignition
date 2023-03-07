@@ -94,6 +94,10 @@ group :development do
   gem 'rubocop-rails', require: false # https://github.com/rubocop/rubocop-rails
   gem 'rubocop-rspec', require: false
 
+  # Use better errors for debugging
+  gem "better_errors" # https://github.com/BetterErrors/better_errors
+  gem "binding_of_caller" # Needed for better_errors
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 

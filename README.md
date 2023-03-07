@@ -30,6 +30,7 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Rubocop RSpec
 - [x] Rubocop Capybara
 - [x] Rubocop Performance
+- [x] [Better Errors](https://github.com/BetterErrors/better_errors)
 
 
 ## Instructions
