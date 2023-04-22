@@ -31,7 +31,12 @@ An opinionated Ruby on Rails starter application with everything you need to sta
 - [x] Rubocop Capybara
 - [x] Rubocop Performance
 - [x] [Better Errors](https://github.com/BetterErrors/better_errors)
-
+- [ ] [Lograge](https://github.com/roidrage/lograge)
+- [ ] [database_consistency](https://github.com/djezzzl/database_consistency)
+- [ ] Add spec/request/.rubocop.yml config
+- [ ] [ERB Lint](https://github.com/Shopify/erb-lint)
+- [ ] [Attractor](https://github.com/julianrubisch/attractor)
+- [ ] [Fuubar](https://github.com/thekompanee/fuubar)
 
 ## Instructions
 1. Clone the repo.
